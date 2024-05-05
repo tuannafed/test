@@ -1,0 +1,201 @@
+.text-center {
+  text-align: center;
+}
+.h-100 {
+  height: 100%;
+}
+.carousel .thumbs-wrapper {
+  margin: 0;
+  margin-top: 20px;
+}
+.carousel .thumbs-wrapper .thumb {
+  height: 80px;
+  border-radius: 6px;
+}
+.carousel .thumbs-wrapper .thumb img {
+  height: 100%;
+  border-radius: 6px;
+}
+.thumbnail {
+  position: relative;
+  z-index: 1;
+  display: block;
+  margin-bottom: 0;
+  overflow: hidden;
+}
+.thumbnail-centered {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 0;
+  margin-bottom: 0;
+  overflow: hidden;
+}
+.thumbnail-centered > img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  transform: translate(-50%, -50%);
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: center;
+  object-position: center;
+  margin-bottom: 0;
+}
+.thumbnail--1x1 {
+  padding-bottom: 100% !important;
+}
+.thumbnail--4x3 {
+  padding-bottom: 75% !important;
+}
+.thumbnail--3x4 {
+  padding-bottom: 133% !important;
+}
+.thumbnail--6x4 {
+  padding-bottom: 62.5% !important;
+}
+.thumbnail--16x9 {
+  padding-bottom: 56.25% !important;
+}
+.thumbnail--24x9 {
+  padding-bottom: 37.5% !important;
+}
+.relative {
+  position: relative;
+}
+.bg-thumnail::after {
+  display: block;
+}
+.fixed-bottom {
+  position: fixed !important;
+  right: 40px;
+  bottom: 40px;
+}
+.btn-create-raovat {
+  margin-right: 8px;
+}
+.hero-searchbar {
+  background-image: url('/images/hero1.jpg');
+  background-color: #47487a;
+  background-blend-mode: multiply;
+}
+.hero-searchbar * {
+  color: #fff !important;
+}
+.hero-searchbar .MuiOutlinedInput-notchedOutline {
+  border-color: #fff !important;
+}
+@media screen and (max-width: 599px) {
+  .btn-create-raovat {
+    display: none;
+  }
+}
+.my-masonry-scroll {
+  width: 100% !important;
+  height: auto !important;
+}
+.my-masonry-grid {
+  width: calc(100% + 32px) !important;
+  margin: -8px -16px !important;
+}
+.my-masonry-grid .my-masonry-item {
+  margin-top: 8px !important;
+  margin-bottom: 8px !important;
+}
+.cursor-pointer {
+  cursor: pointer !important;
+}
+.spinner {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: radial-gradient(farthest-side, #f44336 96%, rgba(0, 0, 0, 0))
+      top/6.4px 6.4px no-repeat,
+    conic-gradient(rgba(0, 0, 0, 0) 20%, #f44336);
+  -webkit-mask: radial-gradient(
+    farthest-side,
+    rgba(0, 0, 0, 0) calc(100% - 6.4px),
+    #000 0
+  );
+  animation: spinner-c7wet2 0.8s infinite linear;
+}
+@keyframes spinner-c7wet2 {
+  100% {
+    transform: rotate(1turn);
+  }
+}
+.wapper-masonry.load-more .loading {
+  position: relative;
+}
+.fancybox__container {
+  z-index: 1400 !important;
+}
+.object-fit {
+  width: 100%;
+  -o-object-fit: contain;
+  object-fit: contain;
+  -o-object-position: 50% 50%;
+  object-position: 50% 50%;
+}
+@media (max-width: 600px) {
+  .slider-ads {
+    margin-bottom: 16px;
+    padding: 0 16px;
+  }
+}
+.slider-ads .slick-list {
+  padding: 30px 100px !important;
+}
+@media (max-width: 600px) {
+  .slider-ads .slick-list {
+    padding: 0 !important;
+  }
+}
+.slider-ads .slick-initialized .slick-slide {
+  border: none !important;
+}
+.slider-ads .slick-initialized .slick-slide img {
+  border-radius: 10px;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+@media (max-width: 600px) {
+  .slider-ads .slick-initialized .slick-slide img {
+    box-shadow: none;
+  }
+}
+.slider-ads .slick-next {
+  right: 90px;
+}
+@media (max-width: 600px) {
+  .slider-ads .slick-next {
+    right: -23px;
+  }
+}
+.slider-ads .slick-prev {
+  left: 90px;
+}
+@media (max-width: 600px) {
+  .slider-ads .slick-prev {
+    left: -20px;
+  }
+}
+.slider-ads .slick-prev,
+.slider-ads .slick-next {
+  z-index: 999;
+}
+@media (max-width: 600px) {
+  .slider-ads .slick-prev,
+  .slider-ads .slick-next {
+    width: 18px;
+  }
+}
+.search-box input:-webkit-autofill,
+.search-box input:-webkit-autofill:hover,
+.search-box input:-webkit-autofill:focus,
+.search-box input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px #f9fafc inset !important;
+}
